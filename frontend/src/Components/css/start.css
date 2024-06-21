@@ -1,0 +1,83 @@
+
+.aboutCompanySection,html, body  {
+    background: linear-gradient(to right, #f5f5f5, #e0e0e0); 
+    color: #333; 
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .aboutCompanyTitle {
+
+    font-size: 35px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .aboutCompanyIcon {
+    height: 300px; 
+    width: 300px;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding-top: 50px;
+  }
+  
+  .aboutCompanyText {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutCompanyButton {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid transparent; 
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .bookCallButton {
+    background-color: #ffa500; 
+    color: white;
+  }
+  
+  .ourWorksButton {
+    background-color: transparent; 
+    border-color: #ffa500;
+    color: #ffa500;
+  }
+  
+  .attributionText {
+    font-size: 12px;
+    text-align: right;
+    margin-top: 20px;
+  }
+  .loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100vw; 
+    background: linear-gradient(to right, #ffffff, #e6e6e6); 
+  }
+  
+  .loginForm {
+    width: 100%; 
+    
+    padding: 40px;
+    margin: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f2f2f2; 
+  }
+  
+ 
+  

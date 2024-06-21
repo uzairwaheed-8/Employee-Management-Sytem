@@ -1,0 +1,31 @@
+.body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn-clk{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 3px lightblue;
+    margin-bottom: 30px;
+}
+.btn-clk:hover{
+    background-color: #50A9F7;
+    color: black;
+    border-color:#50A9F7;
+    box-shadow: 0 0 5px 3px #50A9F7;
+}
+
+.hover-box {
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.hover-box:hover {
+    background-color: #1259a0; /* Light gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transform: scale(1.05);
+    color: #ddd;
+    box-shadow: 0 0 5px 3px #1259a0;
+}

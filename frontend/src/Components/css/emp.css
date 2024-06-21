@@ -1,0 +1,167 @@
+/* emp.css */
+
+.body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-clik{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px 3px #28a745;
+}
+.btn-clik:hover{
+    background-color: #8EF6A1;
+    color: black;
+    border-color: #8EF6A1;
+    box-shadow: 0 0 5px 3px #8EF6A1;
+}
+
+
+.table-title {
+    display: block;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    width: 100%;
+}
+
+.table-title h3 {
+    color: #fafafa;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+}
+
+/* CSS for table and its elements */
+.table-fill {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+}
+
+.table-fill thead {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.table-fill tbody {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.table-fill th,
+.table-fill td {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #c1c3d1;
+}
+
+.table-fill th:last-child,
+.table-fill td:last-child {
+    border-right: 0;
+}
+
+.table-fill th {
+    background: #03CEA4;
+    color: #d5dde5;
+    border-bottom: 4px solid #9ea7af;
+}
+
+.table-fill th:first-child {
+    border-top-left-radius: 3px;
+}
+
+.table-fill th:last-child {
+    border-top-right-radius: 3px;
+    border-right: none;
+}
+
+.table-fill tr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-top: 1px solid #c1c3d1;
+    border-bottom: 1px solid #c1c3d1;
+    color: #666b85;
+    font-size: 16px;
+}
+
+.table-fill tr:hover td {
+    background: #4e5066;
+    color: #ffffff;
+    border-top: 1px solid #22262e;
+}
+
+.table-fill tr:first-child {
+    border-top: none;
+}
+
+.table-fill tr:last-child {
+    border-bottom: none;
+}
+
+.table-fill tr:nth-child(odd) td {
+    background: #ebebeb;
+}
+
+.table-fill tr:nth-child(odd):hover td {
+    background: #4e5066;
+}
+
+.table-fill tr:last-child td:first-child {
+    border-bottom-left-radius: 3px;
+}
+
+.table-fill tr:last-child td:last-child {
+    border-bottom-right-radius: 3px;
+}
+
+.th.text-left {
+    text-align: left;
+}
+
+.th.text-center {
+    text-align: center;
+}
+
+.th.text-right {
+    text-align: right;
+}
+
+.td.text-left {
+    text-align: left;
+}
+
+.td.text-center {
+    text-align: center;
+}
+
+.td.text-right {
+    text-align: right;
+}
+
+.employee_image {
+    width: 50px; /* Set the desired width for the images */
+    height: 50px; /* Set the desired height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 50%; /* Round the corners for a circular appearance */
+}
